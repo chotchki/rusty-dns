@@ -1,6 +1,11 @@
 [package]
-name = "rusty_dns"
+name = "rusty-dns"
 version = "0.1.0"
 authors = ["Christopher Hotchkiss <christopher.hotchkiss@gmail.com>"]
 
 [dependencies]
+getopts = "0.2.14"
+rusqlite = "0.10.1"
+
+[[bin]]
+name = "rusty-dns"
